@@ -1,0 +1,35 @@
+.one{
+    
+}
+.nine a{
+    text-decoration: none;
+    color: black;
+}
+.ten{
+    display: grid;
+    grid-template-columns: 50% 10% 10% 20%;
+    padding-left: 2%;
+    padding-top: 4%;
+    padding-bottom: 7%;
+    justify-content: space-between;
+}
+.ten a {
+    text-decoration: none;
+    color: black;
+}
+@media(max-width:800px){
+    #one{
+        display: none;
+    }
+    #two{
+        display: none;
+    }
+    #three{
+        display: none;
+    }
+        .ten{
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    }
+}
